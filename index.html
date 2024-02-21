@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="img/day/359.png">
+    <style>
+        .green{ color: #fff; background-color: #5f9341; border:none; }
+        .mt-5{ margin-top: 2.5em; }
+        input[type=text]:focus{ background-color: #fff;  color: #333;}
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <h1>Search For a City Forcast</h1>
+                <input type="text" id="input-el">
+                <button id="search-btn" class="green">Search</button>
+                <hr>
+
+                <div id="weather-display">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
